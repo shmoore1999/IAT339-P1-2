@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Best Coast Style Guide</title>
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+
+  </head>
+
+  <body>
+
+    <header>
+      <img src="img/logo.png" alt="Logo" style="width:620px;height:222px;">
+
+      <h1>Style Guide</h1>
+
+      <nav>
+        <a class="main-nav" href="index.html#interactive_elements">Interactive Elements</a>
+        <a class="main-nav" href="index.html#text_elements">Text Elements</a>
+        <a class="main-nav" href="index.html#combined_elements">Combined Elements</a>
+        <a class="main-nav" href="index.html#citations">Citations</a>
+        <a class="main-nav" href="index.html#branding">Branding</a>
+        <a class="main-nav" href="product.html">Product Listing</a>
+        <a class="main-nav" href="checkout.html">Consultations</a>
+      </nav>
+    </header>
+
+      <!--Payment // -->
+      <div class="container">
+
+      <section id="consultations">
+        <h2>Book a Consultation</h2>
+          <div class="block">
+          <section class="element">
+          <p>Please use the form below to request a consultation with an agent. They will be in touch shortly.
+          <form>
+            <input type="radio">
+            <label for="Steven Jones">Steven Jones</label><br>
+            <input type="radio">
+            <label for="Brittany Furlow">Brittany Furlow</label><br>
+            <input type="radio">
+            <label for="Paige McConnell">Paige McConnell</label><br>
+            <input type="radio">
+            <label for="Nolan Smith">Nolan Smith</label><br>
+            <input type="radio">
+            <label for="Any Available Agent">Any Available Agent</label><br>
+            <br><label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name=""><br><br>
+            <br><input class="form-but" type="submit" value="Submit">
+          </form>
+          </section>
+        </div>
+
+      <h2>Payment</h2>
+      <div class="block">
+          <section class="element">
+            <p>Please use the form below to submit any agreed upon compensation for our services:</p>
+            <h3>What service are you paying for?</h3>
+            <form>
+              <input type="radio" id="sales">
+              <label for="sales">Sales</label><br>
+              <input type="radio" id="management">
+              <label for="management">Management</label><br>
+              <input type="radio" id="other">
+              <label for="other">Other</label><br>
+              <br><label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="card">Card Number:</label>
+              <input type="text" id="card" name="card"><br><br>
+              <label for="expiry">Expiry Date:</label>
+              <input type="text" id="expiry" name="expirt"><br><br>
+              <label for="cvc">CVC:</label>
+              <input type="text" id="cvc" name="cvc"><br><br>
+              <input class="form-but" type="submit" value="Submit"> <input class="form-but" type="reset">
+            </form>
+            </section>
+          </div>
+      </section>
+      <br>
+      </div>
+  </body>
+
+</html>
