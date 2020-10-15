@@ -1,0 +1,133 @@
+body {
+  font-family: "Muli", Arial, sans-serif;
+  color: rgb(0,38,57);
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: rgb(0,38,57);
+}
+
+section{
+  padding: 2rem;
+}
+h1 {
+  font-family: "Philosopher", Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Philosopher", Arial, sans-serif;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-family: "Philosopher", Arial, sans-serif;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+.link-ex {
+  display: inline-block;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: rgb(248,202,85);
+  text-decoration: underline;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.link-ex:hover, .button-nav:focus {
+  color: rgb(251,221,147);
+}
+
+.form-but{
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(48,74,89);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.form-but:hover, .button-nav:focus {
+  background-color: rgb(88,114,139);
+}
+
+.link-img {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(48,74,89);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.link-img:hover, .button-nav:focus {
+  background-color: rgb(88,114,139);
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+.para{
+  display: flex;
+}
+.sample-heads{
+  font-family: "Philosopher", Arial, sans-serif;
+}
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+.main-nav{
+  display: inline-flex;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(48,74,89);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.main-nav:hover, .button-nav:focus {
+  background-color: rgb(88,114,139);
+}
+
+.listing{
+  text-decoration:underline;
+}
+
+.payment{
+  color: rgb(48,74,89);
+}

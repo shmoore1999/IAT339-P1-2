@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Muli';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Muli.eot');
+	src:
+		 url('../fonts/Muli.woff2') format('woff2'),
+		 url('../fonts/Muli.woff') format('woff'),
+		 url('../fonts/Muli.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Philosopher';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Philosopher-Regular.eot');
+	src:
+		 url('../fonts/Philosopher-Regular.woff2') format('woff2'),
+		 url('../fonts/Philosopher-Regular.woff') format('woff'),
+		 url('../fonts/Philosopher-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PhilosopherItal';
+	font-weight: normal;
+	font-style: italic;
+	src: url('../fonts/Philosopher-Italic.eot');
+	src:
+		 url('../fonts/Philosopher-Italic.woff2') format('woff2'),
+		 url('../fonts/Philosopher-Italic.woff') format('woff'),
+		 url('../fonts/Philosopher-Italic.ttf') format('truetype');
+}
