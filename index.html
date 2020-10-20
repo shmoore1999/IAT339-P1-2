@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Best Coast Style Guide</title>
+    <title>Best Coast Real Estate</title>
 
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/fonts.css">
@@ -17,99 +17,143 @@
   <body>
 
     <header>
-      <img src="img/logo.png" alt="Logo" style="width:620px;height:222px;">
-
-      <h1>Style Guide</h1>
+      <a href="index.html"> <img src="img/logo.png" alt="Logo" style="width:620px;height:222px;"></a>
 
       <nav>
-        <a class="main-nav" href="#interactive_elements">Interactive Elements</a>
-        <a class="main-nav" href="#text_elements">Text Elements</a>
-        <a class="main-nav" href="#combined_elements">Combined Elements</a>
+        <a class="main-nav" href="#about_us">About Us</a>
+        <a class="main-nav" href="#our_services">Our Services</a>
+        <a class="main-nav" href="#contact_us">Contact Us</a>
+        <a class="main-nav" href="product.html">Our Listings</a>
+        <a class="main-nav" href="checkout.html">Payment</a>
         <a class="main-nav" href="#citations">Citations</a>
-        <a class="main-nav" href="#branding">Branding</a>
-        <a class="main-nav" href="product.html">Product Listing</a>
-        <a class="main-nav" href="checkout.html">Consultations</a>
       </nav>
     </header>
 
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <!-- ABOUT US SECTION // -->
     <div class="container">
-    <section id="interactive_elements">
-      <h2>Interactive Elements</h2>
+    <section id="about_us">
+      <h2>About Us</h2>
       <div class="block">
 
       <section class="element">
-        <h3>In-text link</h3>
-        <h4>CSS selector:</h4>
-        <p>.link-ex</p>
+        <h3>Our Story</h3>
 
-        <h4>Sample code:</h4>
-        <code>&lt;a class="link-ex" href="https://ca.linkedin.com/in/astevenjones"&gt;Steven Jones&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="link-ex" href="https://ca.linkedin.com/in/astevenjones">Steven Jones</a>
+        <p>Best Coast Real Estate provides a full spectrum of services to our clients.
+          Whether you're looking to purchase or sell your home, get started in real estate investing,
+          or are in need of property management, it would be our absolute pleasure to assist you.</p>
       </section>
 
-
-      <!-- Default Button styling section -->
       <section class="element">
-
-        <h3>Navigation Link</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.main-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a class="main-nav" href="#citations"&gt;Citations&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="main-nav" href="#citations">Citations</a>
-
+        <h3>Our Team</h3>
+        <ol>
+          <h4><li><a class="link-ex" href="https://ca.linkedin.com/in/astevenjones">Steven Jones</a></li></h4>
+          <p>Licensed Agent</p>
+          <p>10+ years of experience</p>
+          <h4><li>Brittany Furlow</li></h4>
+          <p>Office Manager</p>
+          <h4><li>Paige McConnell</li></h4>
+          <h4><li>Nolan Smith</li></h4>
+        </ol>
       </section>
 
-
       <section class="element">
-        <h3>Submit/Reset Buttons</h3>
-        <h4>CSS selector:</h4>
-        <p>.form-but</p>
 
-        <h4>Sample code:</h4>
-        <code>&lt;input class="form-but" type="submit" value="Submit"&gt; &lt;input type="reset" &gt;</code>
+        <h3>What's New?</h3>
 
-        <h4>Rendered element:</h4>
-        <input class="form-but" type="submit" value="Submit"> <input class="form-but" type="reset">
+        <h4>Recently Acquired</h4>
+        <p>copy</p>
+
+        <h4>Real Estate Monthly Article</h4>
+        <p>copy</p>
+
       </section>
 
 
       <section class="element">
-        <h3>Text Input Field with Label</h3>
-        <h4>CSS selector:</h4>
-        <p>.form-text</p>
+        <h3>Upcoming Events</h3>
+        <h4>Open House</h4>
+        <p>copy</p>
 
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <h4>Brokers Opening</h4>
+        <p>copy</p>
 
-        <h4>Rendered element:</h4>
+    </div>
+    </section>
+    <!-- // ABOUT US SECTION -->
+
+
+    <!-- OUR SERVICES SECTION // -->
+    <section id="our_services">
+      <h2>Our Services</h2>
+      <div class="block">
+      <section class="element">
+        <h3>Sales</h3>
+        <p>Click the linked image to view our current home listings</p>
+        <a class="link-img" href="https://www.booking.com/hotel/ca/house-of-husky.en-gb.html">
+          <img src="img/house.jpg" alt="House" style="width:300px;height:200px;">
+         </a>
+        <p>Our team takes a 6% commission on all sales.</p>
+      </section>
+
+
+      <section class="element">
+        <h3>Management</h3>
+        <p>Please contact us at the form below to determine rates.</p>
+      </section>
+
+      <section class="element">
+        <h3>Acquisitions</h3>
+        <p>Please contact us to learn more about our acquisiton/investing opportunities.</p>
+      </section>
+
+      <section class="element">
+        <h3>Consultations</h3>
+        <p>Please use the form below to request a consultation with an agent. They will be in touch shortly.
+        <form>
+          <input type="radio">
+          <label for="Steven Jones">Steven Jones</label><br>
+          <input type="radio">
+          <label for="Brittany Furlow">Brittany Furlow</label><br>
+          <input type="radio">
+          <label for="Paige McConnell">Paige McConnell</label><br>
+          <input type="radio">
+          <label for="Nolan Smith">Nolan Smith</label><br>
+          <input type="radio">
+          <label for="Any Available Agent">Any Available Agent</label><br>
+          <br><label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name=""><br><br>
+          <br><input class="form-but" type="submit" value="Submit">
+        </form>
+      </section>
+
+    </div>
+    </section>
+    <!-- // OUR SERVICES SECTION -->
+
+
+
+    <!-- CONTACT US SECTION // -->
+    <section id="contact_us">
+      <h2>Contact Us</h2>
+      <div class="block">
+      <section class="element">
+        <h3>Work With Us</h3>
         <form>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name"><br><br>
           <label for="phone">Phone:</label>
           <input type="text" id="phone" name="phone"><br><br>
+          <input type="submit" value="Submit">
+          <input type="reset">
         </form>
       </section>
 
 
       <section class="element">
-        <h3>Radio Button with Label</h3>
-        <h4>CSS selector:</h4>
-        <p>.form-radio</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <p>Feedback Type:</p>
+        <h3>Feedback</h3>
         <form action="">
           <input type="radio" id="question">
           <label for="male">Question</label><br>
@@ -119,167 +163,9 @@
           <label for="other">Other</label>
         </form>
       </section>
-
-
-      <section class="element">
-        <h3>Image as a Link</h3>
-        <h4>CSS selector:</h4>
-        <p>.link-img</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="link-img" href="https://www.booking.com/hotel/ca/house-of-husky.en-gb.html">
-          <img src="img/house.jpg" alt="House" style="width:300px;height:200px;">
-         </a>
-      </section>
-    </div>
-
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h2>Text Elements</h2>
-      <div class="block">
-      <section class="element">
-        <h3>Headings</h3>
-        <h4>CSS selector:</h4>
-        <p></p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;section class="sample-heads"&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <section class="sample-heads">
-            <h1>Best Coast Real Estate</h1>
-            <h2>About Us</h2>
-            <h3>Meet the Team</h3>
-            <h4>Brittany Furlow</h4>
-          </section>
-      </section>
-
-
-      <section class="element">
-        <h3>Paragraphs</h3>
-        <h4>CSS selector:</h4>
-        <p>.para</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;p class="para"&gt;Text text text.&lt;/p&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <p class="para">Best Coast Real Estate provides a full spectrum of services to our clients. Whether you're looking to purchase or sell your home, get started in real estate investing, or are in need of property management, it would be our absolute pleasure to assist you. </p>
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3>
-        <h4>CSS selector:</h4>
-        <p>.list-or</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;ol class="list-or"&gt;Items&lt;/ol&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <ol class="list-or">
-          <li>Brittany Furlow</li>
-          <li>Shauna McConnell</li>
-          <li>Rylee Day</li>
-        </ol>
-      </section>
     </div>
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2>Combined Elements</h2>
-      <div class="block">
-      <section class="element">
-        <h3>Main Navigation</h3>
-        <h4>CSS selector:</h4>
-        <p>.main-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a class="main-nav" href="#about_us"&gt; About Us&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <nav>
-          <a class="main-nav" href="#about_us">About Us</a>
-          <a class="main-nav" href="#our_services">Our Services</a>
-          <a class="main-nav" href="#testimonials">Testimonials</a>
-          <a class="main-nav" href="#contact_us">Contact Us</a>
-          <a class="main-nav" href="#payment">Payment</a>
-          <a class="main-nav" href="#citations">Citations</a>
-          <a class="main-nav" href="#branding">Branding</a>
-        </nav>
-      </section>
-
-      <section class="element">
-        <h3>Product/Service Listing</h3>
-        <h4>CSS selector:</h4>
-        <p>.listing</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;section class="listing"&gt; &lt;p&gt;Listing&lt;/p&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <section class="listing">
-        <h3>Sales</h3>
-          <p>Our team takes a 6% commission on all sales.</p>
-        <h3>Management</h3>
-          <p>Please contact us at the form below to determine rates.</p>
-        <h3>Acquisitions</h3>
-          <p>Please contact us to learn more about our acquisiton/investing opportunities.</p>
-        </section>
-      </section>
-
-      <section class="element">
-        <h3>Payment Form </h3>
-        <h4>CSS selector:</h4>
-        <p>.payment</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;form class="payment"&gt;...&lt;/form&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <form class="payment">
-          <input type="radio" id="sales">
-          <label for="sales">Sales</label><br>
-          <input type="radio" id="management">
-          <label for="management">Management</label><br>
-          <input type="radio" id="other">
-          <label for="other">Other</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="card">Card Number:</label>
-          <input type="text" id="card" name="card"><br><br>
-          <label for="expiry">Expiry Date:</label>
-          <input type="text" id="expiry" name="expirt"><br><br>
-          <label for="cvc">CVC:</label>
-          <input type="text" id="cvc" name="cvc"><br><br>
-          <input class="form-but" type="submit" value="Submit">
-        </form>
-      </section>
-
-      <section class="element">
-        <h3>Checkout Cart</h3>
-        <h4>CSS selector:</h4>
-        <p>.cart</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;section class="cart"&gt;Items&lt;/section&gt;</code>
-
-        <h4>Rendered element:</h4>
-      </section>
-    </div>
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
+    <!-- // CONTACT US SECTION -->
 
 
     <!-- Citations // -->
@@ -292,15 +178,6 @@
         <li>Spencer Moore. (Student). (2020). <strong>P01 Style Guide [HTML & CSS]</strong>.</li>
       </ul>
 
-    </section>
-
-    <!-- Branding // -->
-    <section id="branding">
-      <h2>Branding</h2>
-      <p><em>Providing expert real estate sales and management services for the greater Vancouver area.</em></p>
-
-      <p>Best Coast Real Estate provides a full spectrum of services to our clients. Whether you're looking to purchase or sell your home, get started in real estate investing, or are in need of property management, it would be our absolute pleasure to assist you. </p>
-      <img src="img/branding.png" alt="Branding" style="width:582px;height:443px;">
     </section>
   </div>
 
