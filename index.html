@@ -17,7 +17,7 @@
   <body>
 
     <header>
-      <a href="index.html"> <img src="img/logo.png" alt="Best Coast Real Estate" style="width:620px;height:222px;"></a>
+      <a href="index.html"> <img src="img/logo.png" alt="Best Coast Real Estate Logo" style="width:620px;height:222px;"></a>
 
       <nav>
         <a class="main-nav" href="#about_us">About Us</a>
@@ -97,7 +97,7 @@
         <h3>Sales</h3>
         <p>Click the linked image to view our current home listings</p>
         <a class="link-img" href="https://www.booking.com/hotel/ca/house-of-husky.en-gb.html">
-          <img src="img/house.jpg" alt="House" style="width:300px;height:200px;">
+          <img src="img/house.jpg" alt="Image of a House Linked to Current Property Listings" style="width:300px;height:200px;">
          </a>
         <p>Our team takes a 6% commission on all sales.</p>
       </section>
@@ -117,21 +117,23 @@
         <h3>Consultations</h3>
         <p>Please use the form below to request a consultation with an agent. They will be in touch shortly.
         <form>
-          <input type="radio">
+          <input type="radio" id="Steven" name="Steven Jones">
           <label for="Steven Jones">Steven Jones</label><br>
-          <input type="radio">
+          <input type="radio" id="Brittany" name="Brittany Furlow">
           <label for="Brittany Furlow">Brittany Furlow</label><br>
-          <input type="radio">
+          <input type="radio" id="Paige" name="Paige McConnell">
           <label for="Paige McConnell">Paige McConnell</label><br>
-          <input type="radio">
+          <input type="radio" id="Nolan" name="Nolan Smith">
           <label for="Nolan Smith">Nolan Smith</label><br>
-          <input type="radio">
+          <input type="radio" id="Any" name="Any Available Agent">
           <label for="Any Available Agent">Any Available Agent</label><br>
-          <br><label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
+          <br>
+          <label for="name">Name:</label>
+          <input type="text" id="name"><br><br>
           <label for="email">Email:</label>
-          <input type="text" id="email" name=""><br><br>
-          <br><input class="form-but" type="submit" value="Submit">
+          <input type="text" id="email"><br><br>
+          <br>
+          <input class="form-but" type="submit" value="Submit">
         </form>
       </section>
 
@@ -164,9 +166,9 @@
         <h3>Feedback</h3>
         <form action="">
           <input type="radio" id="question">
-          <label for="male">Question</label><br>
+          <label for="question">Question</label><br>
           <input type="radio" id="concern">
-          <label for="female">Concern</label><br>
+          <label for="concern">Concern</label><br>
           <input type="radio" id="other">
           <label for="other">Other</label>
           <input type="text" id="message" name="message"><br><br>
