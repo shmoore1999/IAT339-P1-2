@@ -4,6 +4,10 @@ body {
   padding: 2rem;
 }
 
+footer{
+  text-align: center;
+}
+
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
@@ -122,6 +126,7 @@ code {
 
 .main-nav:hover, .button-nav:focus {
   background-color: rgb(88,114,139);
+  width: 100%;
 }
 
 .listing{
