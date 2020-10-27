@@ -126,7 +126,6 @@ code {
 
 .main-nav:hover, .button-nav:focus {
   background-color: rgb(88,114,139);
-  width: 100%;
 }
 
 .listing{
