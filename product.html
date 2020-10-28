@@ -36,13 +36,69 @@
         <div class="block">
         <section class="subheading element">
           <h3>For Sale</h3>
-            <p>Click the linked image to view our current home listings</p>
-            <a class="link-img" href="https://www.booking.com/hotel/ca/house-of-husky.en-gb.html">
-              <img src="img/house.jpg" alt="Image of a House Linked to Current Property Listings" style="width:300px;height:200px;">
-             </a>
+            <p>Click through the carousel of our current home listings below!</p>
+            <br>
+          <div class="carousel">
+            <div class="slide">
+              <img src="img/house.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">2749 Parker St | $1,299,000</div>
+            </div>
+            <div class="slide">
+              <img src="img/house1.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">420 Commerical Dr | $899,000</div>
+            </div>
+            <div class="slide">
+              <img src="img/house2.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">1991 Deep Cove Rd | $1,480,000</div>
+            </div>
+            <div class="slide">
+              <img src="img/house3.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">3028 Nootka St | $795,000</div>
+            </div>
+            <div class="slide">
+              <img src="img/house4.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">15 E Cordova | $999,999</div>
+            </div>
+            <div class="slide">
+              <img src="img/house5.jpg" alt="Image of a House For Sale" style="width:100%;">
+              <div class="caption">750 Cherry Ln | $1,150,000</div>
+            </div>
 
+            <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+          <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("slide");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              slides[slideIndex-1].style.display = "block";
+            }
+          </script>
+
+            <br>
             <br><h3>Schedule a Showing</h3>
             <form>
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address"><br><br>
               <label for="name">Name:</label>
               <input type="text" id="name" name="name"><br><br>
               <label for="phone">Phone:</label>
@@ -55,6 +111,8 @@
       </div>
       </div>
   </body>
+
+  <script src="main.js"></script>
 
   <footer>
     <nav>

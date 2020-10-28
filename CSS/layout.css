@@ -37,3 +37,49 @@ header{
   padding: 2rem;
   text-align: center;
 }
+
+.carousel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.back, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.back:hover, .next:hover {
+  background-color: rgba(88,114,139);
+}
+
+/* Caption text */
+.caption {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 102%;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
