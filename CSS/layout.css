@@ -24,12 +24,12 @@ body{
   flex-wrap: wrap;
 }
 
-
 img {
   max-width:100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  align-content: center;
   width: 50%;
 }
 
@@ -75,12 +75,10 @@ header{
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .back:hover, .next:hover {
   background-color: rgba(88,114,139);
 }
 
-/* Caption text */
 .caption {
   color: black;
   font-size: 15px;
