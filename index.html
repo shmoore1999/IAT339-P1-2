@@ -161,23 +161,14 @@
       <h2>Contact Us</h2>
       <div class="block">
       <section class="element">
-        <h3>Work With Us</h3>
         <form>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name"><br><br>
           <label for="phone">Phone:</label>
           <input type="text" id="phone" name="phone"><br><br>
-          <label for="message">What Can We Help you With?:</label>
-          <input type="text" id="message" name="message"><br><br>
-          <input class="form-but" type="submit" value="Submit">
-          <input class="form-but" type="reset">
-        </form>
-      </section>
-
-
-      <section class="element">
-        <h3>Feedback</h3>
-        <form action="">
+          <h4>What Can We Help you With?</h4>
+          <input type="radio" id="feedback">
+          <label for="feedback">Feedback</label><br>
           <input type="radio" id="question">
           <label for="question">Question</label><br>
           <input type="radio" id="concern">
@@ -185,6 +176,8 @@
           <input type="radio" id="other">
           <label for="other">Other</label>
           <input type="text" id="message" name="message"><br><br>
+          <label for="message2">Message:</label>
+          <textarea type="text" id="message2" name="message2" style="width:80%; height:80%;"></textarea><br><br>
           <input class="form-but" type="submit" value="Submit">
           <input class="form-but" type="reset">
         </form>
