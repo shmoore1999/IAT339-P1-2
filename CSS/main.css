@@ -86,10 +86,13 @@ code {
 }
 
 .link-img {
-  display: inline-block;
+  display: flex;
   padding: 0.5rem;
   color: white;
-  width: inherit;
+  width: 75%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(48,74,89);
   text-decoration: none;
   transition-property: background-color;
