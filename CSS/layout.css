@@ -61,7 +61,7 @@ header{
   width: auto;
   padding: 0.5rem;
   color: white;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgb(48,74,89);
   font-weight: bold;
   font-size: 1.25rem;
   transition: 0.6s ease;
